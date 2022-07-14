@@ -19,7 +19,7 @@
     --bg-color-team: rgba(245, 244, 250, 1) ;
 
     --indent: 30px;
-    --items: 4;
+    --items: 3;
 }
 
 body {
@@ -69,7 +69,7 @@ img{
 
 /* section */
 .section {
-    padding: 94px 0;
+    padding: 47px 0;
 }
 
 .section-title{
@@ -89,7 +89,7 @@ img{
 }
 
 .card-item{
-    flex-basis: calc(100% - var(--indent) * (var(--items)-1)) /4;
+    flex-basis: calc(100% - var(--indent) * (var(--items)-1)) / var(--items);
 }
 
 /* Site-nav */
@@ -157,7 +157,7 @@ margin-right: auto;
 }
 
 .header-link {
-    margin-right: 50px ;
+    margin-right: 50px;
 }
 
 .header-link,
@@ -179,10 +179,10 @@ margin-right: auto;
 .hero-section{
     color: var(--secondary-text-color);
     background-color: var(--secondary-bg-color);
+    padding: 94px 0;
 }
 
 .hero-button {
-    max-width: 250;
     min-width: 200;
     min-height: 50;
     padding: 10px 32px;
@@ -214,6 +214,7 @@ margin-right: auto;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-bottom: 28px;
 }
 
 /* features */
@@ -231,9 +232,14 @@ margin-right: auto;
     margin: -1px;
 }
 
+.feature {
+    width: 270px;
+}
+
 .feature-list {
     display: flex;
     gap: var(--indent);
+    max-width: 1170px;
 }
 
 .feature-list .title {
@@ -256,13 +262,17 @@ margin-right: auto;
 /* what-we-do */
 
 .what-we-do-list{
-    display: flex;
-    gap: var(--indent);
+    max-width: 1600px;
 }
+
 
 /* our-team */
 .main-content-our-team-section{
     background-color: var(--bg-color-team)
+}
+
+.our-team-list {
+    --items: 4;
 }
 
 .team-card {
@@ -275,7 +285,8 @@ margin-right: auto;
 
 .our-team-list .title {
     color: var(--title-text-color);
-    margin-bottom: 10px;
+    margin-top: 30px;
+    padding-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -299,22 +310,26 @@ margin-right: auto;
     font-family: var(--secondary-font), sans-serif;
     font-size: 26px;
     line-height: 1.2;
+    margin-bottom: 20px;
 }
 .footer-logo .accent{
     color: var(--accent-color);
 }
 
 .address-list {
-    font-style: normal;
+    font-weight: normal;
 }
+
 .footer-adress {
     color: var(--primary-white-color);
     font-size: 14px;
+    font-style: normal;
     line-height: 1.7;
 }
 
 .footer-link,
-.footer-phone {
+.footer-phone {    
+    font-style: normal;
     color: var(--more-transparent-white-color);
 }
 
@@ -361,11 +376,20 @@ margin-right: auto;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    text-align: center;
 }
 .all-projects .text{
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.8;
-    text-align: center;
+}
+
+.project {
+    border-bottom: 1px solid;
+    border-color: rgba(238, 238, 238, 1);
+}
+
+.description {
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
 }
