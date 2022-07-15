@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/common.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +22,7 @@
   </head>
   <body class="page-body">
     <!-- шапка сайту -->
-    <header class="section">
+    <header class="header-general">
       <div class="container header-container">
         <!-- логотип сайту -->
         <a
@@ -42,7 +48,7 @@
         </nav>
 
         <ul class="auth-nav list">
-          <li>
+          <li class="auth-nav-link">
             <a class="header-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
@@ -63,23 +69,23 @@
           <!-- фільтр -->
           <ul class="filter-list list">
             <li>
-              <button type="button" cursor="pointer" class="btn">Все</button>
+              <button type="button" class="btn">Все</button>
             </li>
             <li>
-              <button type="button" cursor="pointer" class="btn">
+              <button type="button" class="btn">
                 Веб-сайты
               </button>
             </li>
             <li>
-              <button type="button" cursor="pointer" class="btn">
+              <button type="button" class="btn">
                 Приложения
               </button>
             </li>
             <li>
-              <button type="button" cursor="pointer" class="btn">Дизайн</button>
+              <button type="button" class="btn">Дизайн</button>
             </li>
             <li>
-              <button type="button" cursor="pointer" class="btn">
+              <button type="button" class="btn">
                 Маркетинг
               </button>
             </li>
@@ -97,8 +103,9 @@
                   alt="project_1"
                   width="370"
                   height="294"
+                  class="project-photo"
                 />
-                <div class="description">
+                <div class="projects-description">
                   <h2 class="title">Технокряк</h2>
                   <p class="text">Веб-сайт</p>
                 </div>
@@ -111,8 +118,9 @@
                   alt="project_2"
                   width="370"
                   height="294"
+                  class="project-photo"
                 />
-                <div class="description">
+                <div class="projects-description">
                   <h2 class="title">Постер New Orlean vs Golden Star</h2>
                   <p class="text">Дизайн</p>
                 </div>
@@ -125,8 +133,9 @@
                   alt="project_3"
                   width="370"
                   height="294"
+                  class="project-photo"
                 />
-                <div class="description">
+                <div class="projects-description">
                   <h2 class="title">Ресторан Seafood</h2>
                   <p class="text">Приложение</p>
                 </div>
@@ -139,8 +148,9 @@
                   alt="project_4"
                   width="370"
                   height="294"
+                  class="project-photo"
                 />
-                <div class="description">
+                <div class="projects-description">
                   <h2 class="title">Проект Prime</h2>
                   <p class="text">Маркетинг</p>
                 </div>
@@ -153,8 +163,9 @@
                   alt="project_5"
                   width="370"
                   height="294"
+                  class="project-photo"
                 />
-                <div class="description">
+                <div class="projects-description">
                   <h2 class="title">Проект Boxes</h2>
                   <p class="text">Приложение</p>
                 </div>
@@ -167,8 +178,9 @@
                   alt="project_6"
                   width="370"
                   height="294"
+                  class="project-photo"
                 />
-                <div class="description">
+                <div class="projects-description">
                   <h2 class="title">Inspiration has no Borders</h2>
                   <p class="text">Веб-сайт</p>
                 </div>
@@ -181,8 +193,9 @@
                   alt="project_7"
                   width="370"
                   height="294"
+                  class="project-photo"
                 />
-                <div class="description">
+                <div class="projects-description">
                   <h2 class="title">Издание Limited Edition</h2>
                   <p class="text">Дизайн</p>
                 </div>
@@ -195,8 +208,9 @@
                   alt="project_8"
                   width="370"
                   height="294"
+                  class="project-photo"
                 />
-                <div class="description">
+                <div class="projects-description">
                   <h2 class="title">Проект LAB</h2>
                   <p class="text">Маркетинг</p>
                 </div>
@@ -209,8 +223,9 @@
                   alt="project_9"
                   width="370"
                   height="294"
+                  class="project-photo"
                 />
-                <div class="description">
+                <div class="projects-description">
                   <h2 class="title">Growing Business</h2>
                   <p class="text">Приложение</p>
                 </div>
