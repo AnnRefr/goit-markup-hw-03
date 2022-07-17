@@ -287,10 +287,6 @@ margin-right: auto;
 
 }
 
-.team-photo{
-    margin-bottom: 30px;
-}
-
 .our-team-list .title {
     color: var(--title-text-color);
     padding-top: 0px;
@@ -307,17 +303,16 @@ margin-right: auto;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 10px;
 }
 
 .team-description{
-    padding-bottom: 10px;
+    padding: 30px 40px;
 }
 
 /* footer */
 .footer-section {
     background-color: var(--secondary-bg-color);
-    padding: 60 px 0;
+    padding: 60px 0;
 }
 .footer-logo {
     color: var(--primary-white-color);
@@ -325,6 +320,7 @@ margin-right: auto;
     font-size: 26px;
     line-height: 1.2;
     margin-bottom: 20px;
+    display: block;
 }
 .footer-logo .accent{
     color: var(--accent-color);
@@ -345,6 +341,10 @@ margin-right: auto;
 .footer-phone {    
     font-style: normal;
     color: var(--more-transparent-white-color);
+}
+
+.address-list-link{
+    margin-bottom: 9px;
 }
 
 /* стилі для portfolio.html */
@@ -395,19 +395,12 @@ margin-right: auto;
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.8;
-    margin-bottom: 20px;
 }
 
-.project {
+.projects-description{
+    border-top: none;
     border-bottom: 1px solid rgba(238, 238, 238, 1);
-}
-
-.project-photo{
-    margin-bottom: 20px;
-}
-
-.projects-description {
-    padding-top: 0px;
-    padding-right: 24px;
-    padding-left: 24px;
+    border-left: 1px solid rgba(238, 238, 238, 1);
+    border-right: 1px solid rgba(238, 238, 238, 1);
+    padding: 20px 24px;
 }
