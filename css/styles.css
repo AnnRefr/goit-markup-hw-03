@@ -306,7 +306,7 @@ margin-right: auto;
 }
 
 .team-description{
-    padding: 30px 40px;
+    padding: 30px 20px;
 }
 
 /* footer */
@@ -343,7 +343,7 @@ margin-right: auto;
     color: var(--more-transparent-white-color);
 }
 
-.address-list-link{
+.adress-list-link{
     margin-bottom: 9px;
 }
 
@@ -398,7 +398,6 @@ margin-right: auto;
 }
 
 .projects-description{
-    border-top: none;
     border-bottom: 1px solid rgba(238, 238, 238, 1);
     border-left: 1px solid rgba(238, 238, 238, 1);
     border-right: 1px solid rgba(238, 238, 238, 1);
